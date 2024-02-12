@@ -1,0 +1,172 @@
+.color
+{
+    color:purple;
+}
+
+
+
+
+
+.back
+{
+  background: url('https://media-cdn.tripadvisor.com/media/photo-s/01/20/03/69/our-dinner-table-at-the.jpg');
+  border-radius: 30px;
+}
+
+
+
+
+
+.back9
+{
+  background: url('https://media.istockphoto.com/id/476021886/photo/beautiful-young-ballet-dancer-jumping-on-a-lilac-background.jpg?s=612x612&w=0&k=20&c=Y4top2o1DseOu9y6X8oTxRfp_1rSFLLZYKf_pEuQLZ8=');
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+.back10
+{
+  background: url('https://img.freepik.com/premium-photo/paintbrush-with-tubes-oil-paints-colour-pencils-art-craft-tools-ink-wooden-table-painting-contemporary-artist-s-items-adult-s-creativity-watercolor-drawing-atmospheric-modern-photo_427877-89.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+.back11
+{
+  background: url('https://c8.alamy.com/comp/2EXDPJH/cook-works-in-kitchen-near-table-with-vegetables-and-tools-man-in-cook-hat-and-uniform-kitchenware-and-cooking-concept-chef-with-serious-face-adjusts-burgundy-apron-on-dark-green-background-2EXDPJH.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+.back12
+{
+  background: url('https://i.pinimg.com/564x/9a/9c/71/9a9c712abbce93e707a3e9bd14a1a2df.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+.back13
+{
+  background: url('https://roothogmusic.com/wp-content/uploads/2022/01/71-1.jpg');
+  background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+.bg-d
+{
+  background-color:rgba(9, 9, 9, 0.841);
+}
+
+
+
+
+
+
+.nav {
+  display: flex;
+  flex-direction: row; 
+
+}
+.box-w
+{
+  width: 180px;
+  border: 2px dotted white;
+  background-color: rgb(30, 29, 29);
+}
+.tilted-card {
+  transform: rotate(6deg); 
+}
+
+
+
+.width
+{
+  width:500px;
+}
+
+
+
+
+
+.col-12 input::placeholder
+{
+ color: white; 
+}
+.col-12 input
+{
+  color: white;
+}
+
+
+@media (max-width: 992px) {
+  .nav {
+    flex-direction: column; 
+    align-items: center;
+  }
+}
+
+  @media only screen and (max-width: 600px) {
+    
+    .tilted-card
+    {
+      transform: rotate(0deg);
+    }
+    
+   .second-card
+   {
+    display: none;
+    
+   }
+   
+ 
+  }
+  
+  
+  
+
+  /* carousel2 */
+  .cards {
+    border: none;
+    border-radius: 0;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  }
+  .carousel-inner {
+    padding: 1em;
+  }
+ 
+  @media screen and (min-width: 577px) {
+    .cards-wrapper {
+      display: flex;
+    }
+    .cards {
+      margin: 0 0.5em;
+      width: calc(100% / 2);
+    }
+    .image-wrapper {
+      height: 20vw;
+      margin: 0 auto;
+    }
+  }
+  @media screen and (max-width: 576px) {
+    .cards:not(:first-child) {
+      display: none;
+    }
+  }
+  
+  .image-wrapper img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .width
+  {
+    width: 100%;
+  }
+  
